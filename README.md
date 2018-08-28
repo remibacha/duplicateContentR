@@ -9,10 +9,6 @@ devtools::install_github("remibacha/duplicateContentR")
 ## Getting started
 Run the folowing lines to install & load needed packages
 ```
-list.of.packages <- c("XML", "httr", "textrank")
-new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
-if(length(new.packages)) install.packages(new.packages)
-
 packages <- c("XML", "httr", "textrank", "duplicateContentR")
 lapply(packages, library, character.only = TRUE)
 ```

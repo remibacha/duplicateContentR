@@ -1,4 +1,4 @@
-#' @title Get Duplicate Content Ratio between 2 web pages
+#' @title Get Duplicate Content Score between 2 web pages
 #'
 #' @description duplicateContentR takes 2 urls as input and computes a duplicate content score to detect plagiarism.
 #'

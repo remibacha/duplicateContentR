@@ -18,11 +18,12 @@ lapply(packages, library, character.only = TRUE)
 ```
 
 Call the duplicate_content_score function by specified 3 arguments (url a, url b, your user agent*) and enjoy!
-* You can get your user agent by asking Google "What is my user agent?"
 
 ```
 duplicate_content_score("https://fr.wikipedia.org/wiki/Physique_quantique", "https://www.futura-sciences.com/sciences/definitions/physique-physique-quantique-13197/","Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0")
 ```
+
+NB: You can get your user agent by asking Google "What is my user agent?"
 
 ## Feedbacks
 Questions and feedbacks welcome!
